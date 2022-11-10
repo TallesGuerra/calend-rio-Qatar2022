@@ -1,14 +1,10 @@
-<h1 align="center"> NLW #10 CopaDoMundo </h1>
+<h1 align="center"> Copa Calendar </h1>
 
 <p align="center">
-Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
-</p>
-
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#memo-license">License</a>
 </p>
 
 <p align="center">
@@ -18,28 +14,28 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 <br>
 
 <p align="center">
-  <img alt="calendario da copa" src=".github/preview.png" width="100%">
+  <img alt="Copa Calendar" src=".github/preview.jpg" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Technologies used in this project:
 
-- HTML e CSS
+- HTML, CSS, JavaScript
 - JavaScript
-- Git e Github
+- Git and Github
 
-## 💻 Projeto
+## 💻 Project
 
-O Calendário da Copa é um projeto que mostra os jogos da Copa do Mundo de 2022.
+The Caledar is a component that simulates the credit card filling form, where you can add mask to inputs and update HTML elements using DOM.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](<https://www.figma.com/file/RL6odqmE5IdsWq2RuwSEDS/Calend%C3%A1rio-de-Jogos-(Community)?node-id=172%3A179/duplicate>>). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+You can view the project layout through [THIS LINK](https://www.figma.com/file/X81raNqb7xRIbBA3pHOgcT/Calend%C3%A1rio-de-Jogos-(Community)?node-id=0%3A1). It is necessary to have an account on [Figma](https://figma.com) to access it.
 
-## :memo: Licença
+## :memo: License
 
-Esse projeto está sob a licença MIT.
+This project is under the MIT license.
 
----
 
+Project developed by the RocketSeat school
