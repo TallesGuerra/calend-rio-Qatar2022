@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  <img alt="Copa Calendar" src=".github/preview.jpg" width="100%">
+  <img alt="Copa Calendar" src=".github/capa.svg" width="100%">
 </p>
 
 ## 🚀 Technologies
