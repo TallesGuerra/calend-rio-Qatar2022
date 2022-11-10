@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px solid wheat;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #1d1c19;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid #fffb;
+  padding: 5px 0;
+
+
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip:hover,
+.card h2:hover,
+.card ul li strong:hover,
+.card ul li img:hover {
+  transform: scale(1.2);
+  cursor: cell;
+}
+
+:root {
+  --card-title-border-color: #746615;
+  --card-color-primary: #f7dd43;
+  --card-bg-color: #1d1c19;
+  --bg: url(./assets/bg-yellow.svg);
+}
+
+body.blue {
+  --card-title-border-color: #338af3;
+  --card-color-primary: #338af3;
+  --card-bg-color: #202024bb;
+  --bg: url(./assets/bg-blue.svg);
+}
+
+body.green {
+  --card-title-border-color: #047c3f;
+  --card-color-primary: #047c3f;
+  --card-bg-color: #1a1f1b;
+  --bg: url(./assets/bg-green.svg);
+}
+
+body {
+  padding-top: 40px;
+  text-align: center;
+  align-items: center;
+  background-color: #091a2f;
+  background-image: var(--bg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body * {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  margin-bottom: 30px;
+  text-align: center;
+  position: fit-content;
+
+
+}
+
+header h2 {
+  margin-top: 15px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+header p {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: var(--card-color-primary);
+  font-weight: 500;
+}
+.menu {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  letter-spacing: 3px;
+
+  text-align: center;
+  margin: 0 auto;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin: 5px;
+
+  align-items: center;
+  text-align: center;
+
+  border: 1px solid #338af3;
+  background: #1d1c19bb;
+  border-radius: 20px;
+}
+
+
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+
+  width: 260px;
+  height: 30px;
+
+  margin: auto;
+  padding: 30px;
+}
+
+
+.menu:hover a span {
+  opacity: 1;
+}
+
+.menu a:hover {
+  cursor: pointer;
+
+  color: grey;
+
+  font-size: 22px;
+  font-weight: 400;
+}
+
+
+
+
+div.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.card p {
+  margin-top: 4px;
+  font-size: 14px;
+  font-family: "Roboto";
+  text-transform: capitalize;
+}
+
+#app {
+  width: fit-content;
+  margin: auto;
+
+  padding-top: 52px;
+}
+
+
+header img {
+  text-align: center;
+  width: 270px;
+  height: 270px;
+}
+
+
+
+#cards {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding-left: 35px;
+  padding-right: 35px
+}
+
+.card {
+  padding: 32px 23px;
+  text-align: center;
+  color: white;
+
+  background: var(--card-bg-color);
+  border-bottom: 2px solid var(--card-color-primary);
+  border-radius: 6px;
+  width: 315px;
+  height: 621px;
+}
+
+.card h2 {
+  border: 1px solid var(--card-title-border-color);
+  border-radius: 6px;
+
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+
+  width: fit-content;
+  margin-inline: auto;
+  margin-bottom: 53px;
+
+  color: var(--card-color-primary);
+  padding: 8px 16px;
+}
+
+.card h2 span {
+  color: #e1e1e6;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  width: 270px;
+}
+
+.card ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card ul li+li {
+  padding-top: 24px;
+  border-top: 1px solid #323238;
+}
+
+.card ul li strong {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 125%;
+
+  color: #e1e1e6;
+}
+
+.card h2,
+.card ul li strong,
+.card ul li img {
+  transition: transform .4s;
+}
+
+.card {
+  animation: appear 2s;
+}
+
+.card {
+  opacity: 0;
+  animation: appear 0.5s forwards;
+}
+
+footer {
+  font-size: 20px;
+  color: white;
+  margin: 25px;
+}
+
+footer a:hover {
+  font-size: 25px;
+}
+
+
+
+
+
+
+@keyframes appear {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 700px) {
+  #cards {
+    flex-direction: row;
+    max-width: 1100px;
+    margin-left: 15px;
+    flex-wrap: wrap;
+  }
+}
+
+#cards:nth-child(5) {
+  width: 30px;
+}
+
+a {
+  color: inherit;
+}
