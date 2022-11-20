@@ -48,7 +48,7 @@ document.querySelector("#cards").innerHTML =
   ) +
   createCard(
     "22/11",
-    "Segunda-Feira",
+    "Terça-Feira",
     createGame("Argentina", "10:00", "arábia-saudita") +
       createGame("dinamarca", "13:00", "tunísia") +
       createGame("méxico", "16:00", "polônia") +
@@ -56,7 +56,7 @@ document.querySelector("#cards").innerHTML =
   ) +
   createCard(
     "23/11",
-    "Terça-Feira",
+    "Quarta-Feira",
     createGame("marrocos", "10:00", "croácia") +
       createGame("alemanha", "13:00", "japão") +
       createGame("espanha", "16:00", "costa-rica") +
@@ -80,7 +80,7 @@ document.querySelector("#cards").innerHTML =
   ) +
   createCard(
     "26/11",
-    "Quinta-Feira",
+    "Sábado",
     createGame("tunísia", "10:00", "austrália") +
       createGame("polônia", "13:00", "arábia-saudita") +
       createGame("frança", "16:00", "dinamarca") +
@@ -120,7 +120,7 @@ document.querySelector("#cards").innerHTML =
   ) +
   createCard(
     "01/12",
-    "Segunda-Feira",
+    "Quinta-Feira",
     createGame("croácia", "15:00", "bélgica") +
       createGame("canadá", "15:00", "marrocos") +
       createGame("japão", "19:00", "espanha") +
